@@ -26,7 +26,34 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
-  padding: 250px 80px;
+  padding: 150px 80px;
   font-size: 50px;
-  justify-content: center;
+}
+.flexiteams {
+  background-color: rgb(30, 5, 88);
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding:
+  font-size: 52px;
+  margin: auto;
+}
+.networklink {
+  background-color: rgb(9, 1, 27);
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 150px 80px;
+  font-size: 22px;
+}
+.contactdetails {
+  background-color: rgb(44, 43, 46);
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 75px 80px;
+  font-size: 10px;
 }

@@ -2,23 +2,29 @@ body {
   margin: 00;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .topnav {
   overflow: hidden;
   background-color: #a70c01;
 }
-
 .topnav a {
   float: right;
-  color: black;
+  color: rgb(248, 246, 246);
   text-align: left;
-  padding: 20px 10px;
+  padding: 20px 25px;
   text-decoration: none;
-  font-size: 27px;
+  font-size: 25px;
 }
 .topnav a:hover {
-  background-color: #7c8b43;
-  color: black;
+  background-color: #2881d4;
+  color: rgb(216, 30, 160);
+}
+.mainbody h1 {
+  color: rgb(243, 235, 235);
+  margin-bottom: 0%;
+}
+.mainbody p {
+  color: red;
+  margin-top: 0%;
 }
 .mainbody {
   background-color: rgb(48, 47, 47);
@@ -26,18 +32,26 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
-  padding: 150px 80px;
-  font-size: 50px;
+  padding: 230px 80px;
+  font-size: 25px;
 }
-.flexiteams {
+.title {
   background-color: rgb(30, 5, 88);
   color: rgb(255, 255, 255);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
-  padding:
-  font-size: 52px;
-  margin: auto;
+  font-size: 15px;
+  margin: 0;
+  padding: 500px 350px;
+}
+.pic1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.pic {
+  flex-wrap: wrap;
 }
 .networklink {
   background-color: rgb(9, 1, 27);
@@ -45,7 +59,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
-  padding: 150px 80px;
+  padding: 200px 80px;
   font-size: 22px;
 }
 .contactdetails {
